@@ -1,18 +1,19 @@
 from json import JSONEncoder
-from typing import Any, List
+from typing import Any, Dict
 
 
 class UniResponse:
-    def __init__(self, data: List, msg="success", code=200):
+    def __init__(self, data: Dict, msg="success", code=200):
         self.code = code
         self.msg = msg
         self.data = data
 
 
 class Result:
-    def __init__(self, url):
-        self.url = url
-        # something else
+    def __init__(self, doc_id, score, source):
+        self.doc_id = doc_id
+        self.score = score
+        self.source = source
 
 
 class UniResponseEncoder(JSONEncoder):
