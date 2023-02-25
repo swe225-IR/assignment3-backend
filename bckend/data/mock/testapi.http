@@ -1,0 +1,2 @@
+GET http://localhost:8000/api_v2/query?q=xxxx&offset=1&limit=10
+Accept: application/json

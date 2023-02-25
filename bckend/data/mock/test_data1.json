@@ -8,21 +8,21 @@
       {
         "doc_id": "1",
         "score": 0.545,
-        "data": {
+        "source": {
           "url": "https://www.yahoo.com/"
         }
       },
       {
         "doc_id": "2",
         "score": 0.643,
-        "data": {
+        "source": {
           "url": "https://www.uci.edu/"
         }
       },
       {
         "doc_id": "3",
         "score": 0.342,
-        "data": {
+        "source": {
           "url": "https://www.google.com"
         }
       }
