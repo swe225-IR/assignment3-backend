@@ -15,6 +15,9 @@ class Result:
         self.score = score
         self.source = source
 
+    def __repr__(self):
+        return f'Result(id: {self.doc_id}, score: {self.score}, source: {self.source})'
+
 
 class UniResponseEncoder(JSONEncoder):
     def default(self, o: Any) -> Any:
