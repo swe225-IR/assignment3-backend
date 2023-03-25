@@ -8,7 +8,7 @@ see [search-engine](https://github.com/swe225-IR/assignment3-search-engine) for 
 
 ```bash
 $ git clone https://github.com/swe225-IR/assignment3-backend.git
-$ conda create -n assignment3 python=3.9
+$ conda create -n assignment3 python=3.10
 $ conda activate assignment3
 $ cd assignment3-backend
 $ pip install -r requirements.txt
